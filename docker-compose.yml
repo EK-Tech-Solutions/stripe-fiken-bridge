@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  backend:
+    build: .
+    pull_policy: build
+    container_name: stripe-fiken-bridge
+    restart: unless-stopped
+    ports:
+      - '$PORT:$PORT'
+    env_file:
+      - stack.env
