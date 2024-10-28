@@ -1,10 +1,16 @@
 # stripe-fiken-bridge
 A Stripe to Fiken bridge created using Node
 
+## Usage
+
+Node server that accepts webhook requests from Stripe and adds, updates or deactivates customers in Fiken accounting software (fiken.no). Container releases are available so that you can host your own server.
+
+
 ## Features in progress
 - Create customer in Fiken from Stripe Event customer.created ([#1](https://github.com/EK-Tech-Solutions/stripe-fiken-bridge/issues/1))
 - Update customer in Fiken from Stripe Event customer.updated ([#2](https://github.com/EK-Tech-Solutions/stripe-fiken-bridge/issues/2))
 - Set a customer as inactive in Fiken from Stripe Event customer.deleted ([#3](https://github.com/EK-Tech-Solutions/stripe-fiken-bridge/issues/3))
+
 
 ## Enviroment variables
 
