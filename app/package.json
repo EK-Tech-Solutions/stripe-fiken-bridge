@@ -1,0 +1,22 @@
+{
+  "name": "stripe-fiken-bridge",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon --env-file=.env server.js"
+  },
+  "keywords": [],
+  "author": "Thorbjørn Kirkeleit, Evertsen Kirkeleit Tech Solutions AS",
+  "license": "GPL-3.0-only",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.21.1",
+    "stripe": "^17.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
