@@ -10,4 +10,17 @@ A Stripe to Fiken bridge created using Node
 
 Use `PORT` to specify which port the service accepts connections to. Default is 3000.
 
-Use `STRIPE_ENDPOINT_SECRET` for endpoint secret provided by Stripe. This is required.
+Use `STRIPE_ENDPOINT_SECRET` for endpoint secret provided by Stripe. This is **required**.
+
+Use `FIKEN_API_TOKEN` for personal API token created in Fiken. This is **required**.
+
+Use `FIKEN_COMPANY_SLUG` which company to add customers in Fiken. This is **required**.
+
+### Example enviroment file
+
+```
+PORT=3001
+STRIPE_ENDPOINT_SECRET=whsec_...
+FIKEN_API_TOKEN=aaa-bbb-ccc
+FIKEN_COMPANY_SLUG=demo-company-as
+```
