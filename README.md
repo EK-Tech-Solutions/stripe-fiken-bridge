@@ -3,7 +3,13 @@ A Stripe to Fiken bridge created using Node
 
 ## Usage
 
+### Self-hosted
+
 Node server that accepts webhook requests from Stripe and adds, updates or deactivates customers in Fiken accounting software (fiken.no). Container releases are available so that you can host your own server.
+
+### Hosted by EK Tech Solutions AS
+
+If you would like us to host this service for you we will happily do so for a small fee. The service will be updated to latest release and availability monitored by our team. Contact us at [post@ekts.no](mailto:post@ekts.no) for more information.
 
 
 ## Features in progress
